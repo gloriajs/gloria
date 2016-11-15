@@ -36,6 +36,17 @@ Will create a new project in a specified folder.
 
 Options can be passed in the command like `--name=myBlog` or given in the interactive prompt.
 
+##Build
+
+`gloria build [dest] --clear=false`
+
+Builds the site into the desired destination.
+By default it will use a folder name 'site' in the root directory of the project.
+It won't build to a parent folder.
+The command will fail if _config.yml is invalid or not present.
+
+If clear equals true it will empty the destination directory before processing and copying content to it.
+
 ##Help
 
 `gloria --help`
