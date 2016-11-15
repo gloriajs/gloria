@@ -24,6 +24,25 @@ npm install -g gloria
 Now gloria is globally installed in your computer, and you can run commands
 like `gloria --version` to retrieve the version.
 
+#Commands
+
+The following commands are available to use
+
+##Init
+
+`gloria init [name]`
+
+Will create a new project in a specified folder.
+
+Options can be passed in the command like `--name=myBlog` or given in the interactive prompt.
+
+##Help
+
+`gloria --help`
+
+Will provide a list of commands and options available.
+
+
 #Development and contributing
 
 Fork and clone the repo. Then run `yarn` to install the
@@ -46,4 +65,4 @@ npm 3.10.3
 ```
 
 Try upgrading your version of node and run `yarn` again. Or open
-an issue describing your problem.
+an [issue](https://github.com/dvidsilva/gloria/issues) describing your problem.
