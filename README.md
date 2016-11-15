@@ -24,6 +24,23 @@ npm install -g gloria
 Now gloria is globally installed in your computer, and you can run commands
 like `gloria --version` to retrieve the version.
 
+#_CONFIG.yml
+
+The file _config.yml has some important information about your site in [Yaml](https://learn.getgrav.org/advanced/yaml) format.
+
+Only two values are required, name and location. The default file looks something like this:
+
+```
+name: sampleblog
+location: sampleblog
+layout: default
+author: 'david silva'
+description: 'Sample site created with gloria'
+version: 1.0.0
+```
+You can add any amount of data here and it will be available for you in the templates
+as properties of `site`. Look in the [template](#template) documentation for more info.
+
 #Commands
 
 The following commands are available to use
@@ -47,12 +64,26 @@ The command will fail if _config.yml is invalid or not present.
 
 If clear equals true it will empty the destination directory before processing and copying content to it.
 
+Any amount of key-value pairs can be passed to the build command, like `title='A New Adventure` and they will be
+available to use in your templates as properties of `args`.
+
 ##Help
 
 `gloria --help`
 
 Will provide a list of commands and options available.
 
+#Template 
+
+Templates are html or markdown files, they are interpreted with [handlebars](https://www.npmjs.com/package/handlebars).
+
+There are three main objects you can access on your template, `site` has access to the properties specified in `_config.yml`.
+`self` has access to the properties specified in the header of the page, and `args` has access to the arguments given to the command
+build. 
+
+There's no layouts or including other files yet.
+
+Roadmap, also includes having access to other pages, to be able to loop in blog posts, or read categories for example.
 
 #Development and contributing
 
