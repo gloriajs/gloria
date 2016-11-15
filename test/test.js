@@ -6,3 +6,5 @@ describe('gloria is not undefined', function () {
 });
 
 require('./commands/index');
+require('./commands/init');
+
