@@ -1,4 +1,5 @@
 #Gloria - static site generator
+*gloria is spanish for glory, also the name of my mom and the name was available in npm*
 
 This project aims to be a substitute for
 [jekyll](https://jekyllrb.com/), to help you
