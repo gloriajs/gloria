@@ -85,6 +85,22 @@ There's no layouts or including other files yet.
 
 Roadmap, also includes having access to other pages, to be able to loop in blog posts, or read categories for example.
 
+#Deployment
+
+You can use any service that lets you host HTML or static sites. The quickest ones to get working
+are [github pages](https://pages.github.com/) and 
+[firebase](https://firebase.google.com/docs/hosting/).
+
+## Firebase instructions
+
+Create a firebase account and a project, then run `firebase init` on your root folder and follow the instructions.
+When prompted what folder to use, chose your destination folder.
+
+## Github pages instructions
+
+The best option to use github pages is to build your site to a folder called `docs`, push to a repo, and then select
+that folder in the github-pages configuration for that repo.
+
 #Development and contributing
 
 Fork and clone the repo. Then run `yarn` to install the
