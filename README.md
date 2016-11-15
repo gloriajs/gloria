@@ -20,7 +20,7 @@ npm install -g gloria
 #Usage
 
 Now gloria is globally installed in your computer, and you can run commands
-like `gloria -v` to retrieve the version.
+like `gloria --version` to retrieve the version.
 
 #Development and contributing
 
