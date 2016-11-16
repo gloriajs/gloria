@@ -67,6 +67,11 @@ If clear equals true it will empty the destination directory before processing a
 Any amount of key-value pairs can be passed to the build command, like `title='A New Adventure` and they will be
 available to use in your templates as properties of `args`.
 
+##Serve
+
+Will spawn a web server to allow access to the built files, using the provided `dest` argument, or the one stored in the
+site configuration.
+
 ##Help
 
 `gloria --help`
