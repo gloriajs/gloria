@@ -33,6 +33,7 @@
     "shelljs": "^0.7.5",
     "string": "^3.3.3",
     "tslint": "^4.0.0",
+    "typescript": "^2.0.10",
     "yamljs": "^0.2.8",
     "yargs": "^6.4.0"
   },
