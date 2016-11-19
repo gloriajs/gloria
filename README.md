@@ -26,7 +26,8 @@ like `gloria --version` to retrieve the version.
 
 #_CONFIG.yml
 
-The file _config.yml has some important information about your site in [Yaml](https://learn.getgrav.org/advanced/yaml) format.
+The file _config.yml has some important information about your site in
+[Yaml](https://learn.getgrav.org/advanced/yaml)format.
 
 Only two values are required, name and location. The default file looks something like this:
 
@@ -85,6 +86,24 @@ Templates are html or markdown files, they are interpreted with [handlebars](htt
 There are three main objects you can access on your template, `site` has access to the properties specified in `_config.yml`.
 `self` has access to the properties specified in the header of the page, and `args` has access to the arguments given to the command
 build. 
+
+##Frontmatter
+
+Every page can have additional attributes that will be accessible to it, the layout
+or the includes.
+
+The additional attributes should be included in the beginning of the file in the following format, use three dashes
+in the first line of the file, and add any key pair of attributes using the
+[Yaml](https://learn.getgrav.org/advanced/yaml) syntax, and finish with three dashes. Like this:
+```
+---
+tite: About us
+url: /about
+description: 
+---
+```
+
+##Issues
 
 There's no layouts or including other files yet.
 
