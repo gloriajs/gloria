@@ -1,7 +1,7 @@
 {
   "name": "gloria",
-  "version": "0.8.1",
-  "description": "Gloria is a static site generator, like jekyll, but using JavaScript",
+  "version": "0.8.2",
+  "description": "Gloria is a static site genrator, like jekyll, but using JavaScript",
   "main": "lib",
   "bin": "bin/gloria",
   "scripts": {
@@ -28,6 +28,7 @@
     "jscs": "^3.0.7",
     "liquid-to-handlebars": "^0.3.2",
     "markdown": "^0.5.0",
+    "marked": "^0.3.6",
     "mz": "^2.5.0",
     "node-sass": "^3.13.0",
     "prompt-sync": "^4.1.4",

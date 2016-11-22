@@ -1,3 +1,7 @@
+#0.8.2
+
+Replaced the markdown engine with [marked](https://github.com/chjj/marked).
+
 #0.8.1
 
 Simple bug fixes
