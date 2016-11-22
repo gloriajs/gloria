@@ -1,6 +1,6 @@
 {
   "name": "gloria",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Gloria is a static site generator, like jekyll, but using JavaScript",
   "main": "lib",
   "bin": "bin/gloria",
@@ -29,6 +29,7 @@
     "liquid-to-handlebars": "^0.3.2",
     "markdown": "^0.5.0",
     "mz": "^2.5.0",
+    "node-sass": "^3.13.0",
     "prompt-sync": "^4.1.4",
     "q": "^1.4.1",
     "shelljs": "^0.7.5",
