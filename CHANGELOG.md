@@ -1,3 +1,7 @@
+#0.8.1
+
+Simple bug fixes
+
 #0.8.0
 **Simple support for sass**
 
