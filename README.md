@@ -84,8 +84,28 @@ Will provide a list of commands and options available.
 Templates are html or markdown files, they are interpreted with [handlebars](https://www.npmjs.com/package/handlebars).
 
 There are three main objects you can access on your template, `site` has access to the properties specified in `_config.yml`.
-`self` has access to the properties specified in the header of the page, and `args` has access to the arguments given to the command
+`page` has access to the properties specified in the header of the page, and `args` has access to the arguments given to the command
 build. 
+
+##Layouts
+
+A layout file is used to have a structure common to different pages, for example a navigation menu,
+header, css includes, scripts, etc.
+
+The name of the layout will be the name of the file, by default `default.html` is included, additional files
+included in the `_layout` folder will be used. If no layout exists or is especified the file will be
+rendered on its own.
+
+The main thing that templates require is `{{{page.content}}}` that will get replaced with the actual
+content of the page.
+
+##Includes
+
+Include files, or also known as partials, are files that can be included in your content or layouts,
+they can be useful to reuse snippets like a `head` element, or a share button.
+
+Any amount of partials and includes can exists, in the `_includes` folder, they are named as their file
+name, and they can be used like this `{{> head}}`. Data will be interpolated there as expected.
 
 ##Frontmatter
 
