@@ -1,3 +1,7 @@
+#0.8.3
+
+Fixed typo in package.json
+
 #0.8.2
 
 Replaced the markdown engine with [marked](https://github.com/chjj/marked).
