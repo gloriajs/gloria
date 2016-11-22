@@ -26,6 +26,7 @@
     "fs-promise": "^1.0.0",
     "handlebars": "^4.0.6",
     "jscs": "^3.0.7",
+    "liquid-to-handlebars": "^0.3.2",
     "markdown": "^0.5.0",
     "mz": "^2.5.0",
     "prompt-sync": "^4.1.4",
