@@ -1,3 +1,19 @@
+#0.9.0
+## Added the option to include posts
+
+Posts can be included in a folder _posts, they will be rendered using the
+layout `post.html`.
+
+There's a property named posts, that can be used to get a lists of posts
+to lists them.
+
+The bootstrap layout, includes examples on how to use them.
+
+@todo: 
+     - Prevent errors when templates don't exists.
+     - Create helpers to allow nesting layout/template
+     - Create new command
+
 #0.8.3
 
 Fixed typo in package.json

@@ -10,7 +10,19 @@
                 <a href="/blog">Blog</a>
             </nav>
         </header>
-        {{{page.content}}}
+        <div class="container">
+            <h1>{{page.title}}</h1>
+
+            {{{page.content}}}
+
+            {{#if page.author}}
+                <p>Author: {{page.author}}</p>
+            {{/if}}
+
+            <p>
+                <a href="/">Home</a>
+            </p>
+        </div>
         <script src="/scripts/jquery-1.10.2.min.js"></script>
     </body>
 </html>
