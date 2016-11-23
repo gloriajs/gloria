@@ -79,13 +79,13 @@ site configuration.
 
 Will provide a list of commands and options available.
 
-#Template 
+#Template
 
 Templates are html or markdown files, they are interpreted with [handlebars](https://www.npmjs.com/package/handlebars).
 
 There are three main objects you can access on your template, `site` has access to the properties specified in `_config.yml`.
 `page` has access to the properties specified in the header of the page, and `args` has access to the arguments given to the command
-build. 
+build.
 
 ##Layouts
 
@@ -119,7 +119,7 @@ in the first line of the file, and add any key pair of attributes using the
 ---
 tite: About us
 url: /about
-description: 
+description:
 ---
 ```
 
@@ -132,7 +132,7 @@ Roadmap, also includes having access to other pages, to be able to loop in blog 
 #Deployment
 
 You can use any service that lets you host HTML or static sites. The quickest ones to get working
-are [github pages](https://pages.github.com/) and 
+are [github pages](https://pages.github.com/) and
 [firebase](https://firebase.google.com/docs/hosting/).
 
 ## Firebase instructions
@@ -147,19 +147,11 @@ that folder in the github-pages configuration for that repo.
 
 #Development and contributing
 
-Fork and clone the repo. Then run `yarn` to install the
-dependencies.
-
-Run `npm link` inside the repo to use your local Development
-version instead of the globally installed one.
-
-Add changes, commit and open a pull request. It's preferable if
-you open an issue first, or look at the open issues and assignments
-before working, to make sure you're not overlaping with other contributors.
+Refer to our [Contributing page](CONTRIBUTING.md)
 
 #Troubleshooting
 
-I'm currently using:
+We're currently using:
 
 ```
 node v6.4.0
@@ -167,4 +159,4 @@ npm 3.10.3
 ```
 
 Try upgrading your version of node and run `yarn` again. Or open
-an [issue](https://github.com/dvidsilva/gloria/issues) describing your problem.
+an [issue](https://github.com/gloriajs/gloria/issues) describing your problem.
