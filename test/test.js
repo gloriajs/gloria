@@ -9,5 +9,5 @@ require('./commands/index');
 require('./commands/init');
 require('./commands/build');
 require('./commands/serve');
-
+require('./utils/logger.test');
 
