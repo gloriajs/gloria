@@ -7,10 +7,6 @@ This project aims to be a substitute for
 [jekyll](https://jekyllrb.com/), to help you
 create static websites without depending on ruby.
 
-**WARNING: this is a work in progress** it only has
-access to a very limited set of features, and support can be
-dropped in any moment.
-
 ## Community
 
 We have a slack team, there are channels to talk about contributing,
