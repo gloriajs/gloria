@@ -1,6 +1,3 @@
----
-url: /contributing/
----
 # CONTRIBUTING
 
 Contributions in the form of ideas, designs, and code are always welcome no matter how large or small. 
