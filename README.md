@@ -11,6 +11,13 @@ create static websites without depending on ruby.
 access to a very limited set of features, and support can be
 dropped in any moment.
 
+## Community
+
+We have a slack team, there are channels to talk about contributing,
+support, updates, meta and everything.
+
+Request an invite [here](http://slack.gloriajs.com/).
+
 #Installation
 
 Use [npm](https://www.npmjs.com) to install.
