@@ -53,3 +53,6 @@ sample
 
 # VSCode metadata
 .vscode
+
+# Folder to ignore for contributors
+_notes
