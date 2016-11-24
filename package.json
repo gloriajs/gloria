@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dvidsilva/gloria.git"
+    "url": "git+https://github.com/gloriajs/gloria.git"
   },
   "author": "dvidsilva",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/dvidsilva/gloria/issues"
+    "url": "https://github.com/gloriajs/gloria/issues"
   },
-  "homepage": "https://github.com/dvidsilva/gloria#readme",
+  "homepage": "https://github.com/gloriajs/gloria#readme",
   "dependencies": {
     "async": "^2.1.2",
     "chalk": "^1.1.3",

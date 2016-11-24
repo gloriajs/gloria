@@ -9,7 +9,7 @@ to lists them.
 
 The bootstrap layout, includes examples on how to use them.
 
-@todo: 
+@todo:
      - Prevent errors when templates don't exists.
      - Create helpers to allow nesting layout/template
      - Create new command
@@ -38,4 +38,4 @@ It will then output the compiled files into {dest}/sass/
 **Added a migrate command**
 
 Allows to migrate a jekyll site to gloria. Poorly,
-as described [here](https://github.com/dvidsilva/gloria/issues/15).
+as described [here](https://github.com/gloriajs/gloria/issues/15).
