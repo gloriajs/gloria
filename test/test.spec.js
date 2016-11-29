@@ -13,6 +13,7 @@ describe('gloria is not undefined', function () {
 
 require('./commands/index.spec');
 require('./commands/init.spec');
+require('./commands/new.spec');
 require('./commands/build.spec');
 require('./commands/serve.spec');
 require('./utils/logger.spec');
