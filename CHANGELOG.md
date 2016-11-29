@@ -1,3 +1,12 @@
+#0.9.3
+
+Refactored the render file, for the build command
+
+#0.9.2
+
+Added performance fixes
+
+#0.9.1
 #0.9.0
 ## Added the option to include posts
 
