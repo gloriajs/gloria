@@ -1108,7 +1108,7 @@ jsbn@~0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.0.tgz#650987da0dd74f4ebf5a11377a2aa2d273e97dfd"
 
-jscs:
+jscs, jscs@^3.0.3:
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/jscs/-/jscs-3.0.7.tgz#7141b4dff5b86e32d0e99d764b836767c30d201a"
   dependencies:
@@ -1448,6 +1448,12 @@ mocha:
     lodash.create "3.1.1"
     mkdirp "0.5.1"
     supports-color "3.1.2"
+
+mocha-jscs:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/mocha-jscs/-/mocha-jscs-5.0.1.tgz#18b96c73af0e1786799ac16973d57474e05e9647"
+  dependencies:
+    jscs "^3.0.3"
 
 ms@0.7.1:
   version "0.7.1"

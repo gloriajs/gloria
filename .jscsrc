@@ -20,17 +20,11 @@
     ],
     "disallowMixedSpacesAndTabs": true,
     "disallowTrailingWhitespace": true,
-    "requireTrailingComma": {
-        "ignoreSingleLine": true
-    },
+    "requireTrailingComma": { "ignoreSingleLine": true },
     "requireSpaceAfterComma": true,
     "disallowYodaConditions": true,
-    "disallowKeywords": [
-        "with"
-    ],
-    "disallowKeywordsOnNewLine": [
-        "else"
-    ],
+    "disallowKeywords": [ "with" ],
+    "disallowKeywordsOnNewLine": ["else"],
     "disallowMultipleLineBreaks": true,
     "disallowMultipleLineStrings": true,
     "disallowMultipleVarDecl": true,
@@ -42,18 +36,14 @@
     "requireParenthesesAroundIIFE": true,
     "requireSpacesInAnonymousFunctionExpression": {
         "beforeOpeningRoundBrace": true,
-        "allExcept": [
-            "shorthand"
-        ]
+        "allExcept": ["shorthand"]
     },
     "requireSpacesInConditionalExpression": true,
     "requireBlocksOnNewline": 1,
     "requireCommaBeforeLineBreak": true,
     "requireSpaceBeforeBinaryOperators": true,
     "requireSpaceAfterBinaryOperators": true,
-    "requireCamelCaseOrUpperCaseIdentifiers": {
-        "ignoreProperties": true
-    },
+    "requireCamelCaseOrUpperCaseIdentifiers": { "ignoreProperties": true },
     "requireDollarBeforejQueryAssignment": true,
     "requireLineFeedAtFileEnd": true,
     "requireCapitalizedConstructors": true,
@@ -86,16 +76,10 @@
     "requireSpacesInsideImportedObjectBraces": true,
     "safeContextKeyword": "_this",
     "validateLineBreaks": "LF",
-    "validateQuoteMarks": {
-        "mark": "'",
-        "escape": true,
-        "ignoreJSX": true
-    },
+    "validateQuoteMarks": { "mark": "'", "escape": true, "ignoreJSX": true },
     "validateIndentation": 4,
     "maximumLineLength": {
         "value": 100,
-        "allExcept": [
-            "urlComments"
-        ]
+        "allExcept": ["urlComments"]
     }
 }
