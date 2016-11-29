@@ -1,5 +1,8 @@
-#0.9.3
+#0.9.4
 
+Added the `new` command to make it easier adding new content
+
+#0.9.3
 Refactored the render file, for the build command
 
 #0.9.2
