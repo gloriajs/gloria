@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/gloriajs/gloria/issues"
   },
+  "jscs": {
+      "preset": "./.jscsrc"
+  },
   "homepage": "https://github.com/gloriajs/gloria#readme",
   "dependencies": {
     "async": "^2.1.2",
@@ -43,6 +46,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.1.2"
+    "mocha": "^3.1.2",
+    "mocha-jscs": "^5.0.1"
   }
 }
