@@ -1,6 +1,6 @@
 {
   "name": "gloria",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Gloria is a static site generator, like jekyll, but using JavaScript",
   "main": "lib",
   "bin": "bin/gloria",
@@ -17,7 +17,7 @@
     "url": "https://github.com/gloriajs/gloria/issues"
   },
   "jscs": {
-      "preset": "./.jscsrc"
+    "preset": "./.jscsrc"
   },
   "homepage": "https://github.com/gloriajs/gloria#readme",
   "dependencies": {
@@ -41,6 +41,7 @@
     "string": "^3.3.3",
     "tslint": "^4.0.0",
     "typescript": "^2.0.10",
+    "yaml": "^0.3.0",
     "yamljs": "^0.2.8",
     "yargs": "^6.4.0"
   },
