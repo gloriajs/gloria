@@ -1,6 +1,6 @@
 {
   "name": "gloria",
-  "version": "0.9.0",
+  "version": "0.9.3",
   "description": "Gloria is a static site generator, like jekyll, but using JavaScript",
   "main": "lib",
   "bin": "bin/gloria",
@@ -9,14 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dvidsilva/gloria.git"
+    "url": "git+https://github.com/gloriajs/gloria.git"
   },
   "author": "dvidsilva",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/dvidsilva/gloria/issues"
+    "url": "https://github.com/gloriajs/gloria/issues"
   },
-  "homepage": "https://github.com/dvidsilva/gloria#readme",
+  "jscs": {
+      "preset": "./.jscsrc"
+  },
+  "homepage": "https://github.com/gloriajs/gloria#readme",
   "dependencies": {
     "async": "^2.1.2",
     "chalk": "^1.1.3",
@@ -43,6 +46,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.1.2"
+    "mocha": "^3.1.2",
+    "mocha-jscs": "^5.0.1"
   }
 }

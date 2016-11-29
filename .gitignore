@@ -54,5 +54,8 @@ sample
 # VSCode metadata
 .vscode
 
+#Jetbrains metadata
+.idea/
+
 # Folder to ignore for contributors
 _notes
