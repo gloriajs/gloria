@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{> head}}
+    <body>
+        <header class="container">
+            <div class="page-header">
+                <h1><a href="/">Gloria</a> <small>static site generator</small></h1>
+            </div>
+            <nav>
+                <a href="/blog">Blog</a>
+            </nav>
+        </header>
+        <div class="container">
+            <h1>{{page.title}}</h1>
+
+            {{{page.content}}}
+
+            {{#if page.author}}
+                <p>Author: {{page.author}}</p>
+            {{/if}}
+
+            <p>
+                <a href="/">Home</a>
+            </p>
+        </div>
+        <script src="/scripts/jquery-1.10.2.min.js"></script>
+    </body>
+</html>

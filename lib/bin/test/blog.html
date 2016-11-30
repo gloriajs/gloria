@@ -1,0 +1,12 @@
+---
+layout: default
+url: /blog/
+---
+
+<h1>Blog</h1>
+
+<ul class="posts-list">
+  {{#each posts}}
+    <li><a href="{{url}}">{{title}}</a></li>
+  {{/each}}
+</ul>

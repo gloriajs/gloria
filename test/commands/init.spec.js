@@ -1,3 +1,4 @@
+// Look into testing user input
 var should = require('chai').should;
 var expect = require('chai').expect;
 var assert = require('chai').assert;
@@ -40,6 +41,41 @@ describe('init', function () {
     describe('showSiteInfo', function () {
         it('should exist', function () {
             assert.isFunction(init.showSiteInfo);
+        });
+    }
+);
+    describe('confirmSite', function () {
+        it('should exist', function () {
+            assert.isFunction(init.confirmSite);
+        }
+    );
+        it('should return true on default', function () {
+            let interact = { interactive: false };
+            assert.equal(init.confirmSite(interact), true);
+        });
+    }
+);
+    describe('inputNameAndLocation', function () {
+        it('should exist', function () {
+            assert.isFunction(init.inputNameAndLocation);
+        });
+    }
+);
+    describe('inputRest', function () {
+        it('should exist', function () {
+            assert.isFunction(init.inputRest);
+        });
+    }
+);
+    describe('fileLocationNotAvailable', function () {
+        it('should exist', function () {
+            assert.isFunction(init.fileLocationNotAvailable);
+        });
+    }
+);
+    describe('createSite', function () {
+        it('should exist', function () {
+            assert.isFunction(init.createSite);
         });
     });
 });
