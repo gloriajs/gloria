@@ -58,7 +58,8 @@ describe('init', function () {
     describe('inputNameAndLocation', function () {
         it('should exist', function () {
             assert.isFunction(init.inputNameAndLocation);
-        });
+        }
+      );
     }
 );
     describe('inputRest', function () {
