@@ -1,6 +1,6 @@
 {
   "name": "gloria",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "Gloria is a static site generator, like jekyll, but using JavaScript",
   "main": "lib",
   "bin": "bin/gloria",
