@@ -1,3 +1,7 @@
+#0.9.6
+
+- Fix issue #59, every post has a correct url, even when it has categories
+
 #0.9.5
 
 - Performance improvements in the build command
