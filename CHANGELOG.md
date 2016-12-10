@@ -1,3 +1,8 @@
+#NEXT
+
+- Allows to add additional data as json files, in the _data folder.
+  The data can be used in the templates as {{data.'jsonFileName'}}
+
 #0.9.6
 
 - Fix issue #59, every post has a correct url, even when it has categories
