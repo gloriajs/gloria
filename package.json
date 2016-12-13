@@ -52,6 +52,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.1.2",
-    "mocha-jscs": "^5.0.1"
+    "mocha-jscs": "^5.0.1",
+    "pre-commit": "^1.2.2"
   }
 }
