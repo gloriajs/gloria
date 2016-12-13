@@ -1,5 +1,7 @@
+const $log = require('winston');
+
 function thank() {
-    console.log(`doot doot`);
+    $log.log(`doot doot`);
 }
 
 const builder = {};
