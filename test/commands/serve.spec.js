@@ -9,18 +9,52 @@ describe('serve command is a valid module', function () {
     it('will always pass unless serve is undefined', () => null);
 });
 
-describe('serve', function () {
+describe('Serve', function () {
     describe('serveAndBuildSite', function () {
             it('exists', function () {
                     assert.isFunction(serve.serveAndBuildSite);
                 }
             );
-            /*it('returns an Express object', function () {
-                const project = new Project();
-                const argv = {};
-                const options = project.loadConfig('yaml');
-                const dest = project.config.dest || argv.dest;
-                assert.isObject(serve.serveAndBuildSite(argv, dest), 'returns express object');
-            });*/
-        });
+        }
+    );
+    describe('initializeSite', function () {
+            it('exists', function () {
+                    assert.isFunction(serve.initializeSite);
+                }
+            );
+            it('returns a function', function () {
+                    let dest = '';
+                    assert.isFunction(serve.initializeSite(dest));
+                }
+            );
+        }
+    );
+    describe('serveStaticAssets', function () {
+            it('exists', function () {
+                    assert.isFunction(serve.serveStaticAssets);
+                }
+            );
+        }
+    );
+    describe('setRoutes', function () {
+            it('exists', function () {
+                    assert.isFunction(serve.setRoutes);
+                }
+            );
+        }
+    );
+    describe('watchSourceFiles', function () {
+            it('exists', function () {
+                    assert.isFunction(serve.watchSourceFiles);
+                }
+            );
+        }
+    );
+    describe('launchSite', function () {
+            it('exists', function () {
+                    assert.isFunction(serve.launchSite);
+                }
+            );
+        }
+    );
 });
