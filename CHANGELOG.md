@@ -1,5 +1,8 @@
-#NEXT
+#0.10.0
 
+- Fixed bug that prevent init from working on windows
+- Added build stats
+- Watches files and builds during serve
 - Allows to add additional data as json files, in the _data folder.
   The data can be used in the templates as {{data.'jsonFileName'}}
 
