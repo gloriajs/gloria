@@ -30,7 +30,6 @@
     "handlebars": "^4.0.6",
     "jscs": "^3.0.7",
     "liquid-to-handlebars": "^0.3.2",
-    "markdown": "^0.5.0",
     "marked": "^0.3.6",
     "mz": "^2.5.0",
     "node-sass": "^3.13.0",
