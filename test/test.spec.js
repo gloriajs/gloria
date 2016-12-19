@@ -1,8 +1,6 @@
 const should = require('chai').should();
 const gloria = require('../bin/gloria');
 var expect = require('chai').expect;
-require('typescript-require');
-
 require('mocha-jscs')();
 
 describe('gloria is not undefined', function () {
