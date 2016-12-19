@@ -1,3 +1,9 @@
+# Next Version
+
+- Removed unused dependencies
+- Added code of conduct
+
+
 #0.10.0
 
 - Fixed bug that prevent init from working on windows
