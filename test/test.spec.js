@@ -1,15 +1,13 @@
-const should = require('chai').should();
-const gloria = require('../bin/gloria');
-var expect = require('chai').expect;
-require('typescript-require');
+const gloria = require(`../bin/gloria`);
+const expect = require(`chai`).expect;
+const lint = require(`mocha-eslint`);
 
-require('mocha-jscs')();
+lint([ `lib/`, 'test/' ], {});
 
 describe('gloria is not undefined', function () {
     it('will always pass unless gloria is undefined', function () {
         expect(gloria).to.not.equal(undefined);
     });
-
 });
 
 require('./commands/index.spec');
