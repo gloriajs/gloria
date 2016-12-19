@@ -5,7 +5,7 @@ const path = require('path');
 const command = require('../../lib/commands/new');
 const fs = require(`../../lib/utils/fs`);
 
-let options = {
+const options = {
     title: 'hello World',
     folder: 'sample',
     verbose: false,
@@ -21,14 +21,14 @@ describe('New command is a valid module', function () {
 });
 
 describe('will run gloria new with sample options to create sample files:', function () {
-    let result = command.handler(options);
+    const result = command.handler(options);
     it(`will ensure the destination folder exists`, function () {
-        let dir = fs.statSync(result.path);
+        const dir = fs.statSync(result.path);
         expect(dir.isDirectory()).to.equal(true);
     });
 
     it(`will ensure the destination file exists`, function () {
-        let file = fs.statSync(result.path);
+        const file = fs.statSync(result.path);
         expect(file).to.be.ok;
     });
 });

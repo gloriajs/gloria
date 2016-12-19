@@ -11,50 +11,45 @@ describe('serve command is a valid module', function () {
 
 describe('Serve', function () {
     describe('serveAndBuildSite', function () {
-            it('exists', function () {
-                    assert.isFunction(serve.serveAndBuildSite);
-                }
-            );
-        }
-    );
+        it('exists', function () {
+            assert.isFunction(serve.serveAndBuildSite);
+        });
+    });
     describe('initializeSite', function () {
-            it('exists', function () {
-                    assert.isFunction(serve.initializeSite);
-                }
-            );
-            it('returns a function', function () {
-                    let dest = '';
-                    assert.isFunction(serve.initializeSite(dest));
-                }
-            );
-        }
-    );
+        it('exists', function () {
+            assert.isFunction(serve.initializeSite);
+        });
+        it('returns a function', function () {
+            const dest = '';
+            assert.isFunction(serve.initializeSite(dest));
+        });
+    });
     describe('serveStaticAssets', function () {
-            it('exists', function () {
-                    assert.isFunction(serve.serveStaticAssets);
-                }
-            );
+        it('exists', function () {
+            assert.isFunction(serve.serveStaticAssets);
         }
+            );
+    }
     );
     describe('setRoutes', function () {
-            it('exists', function () {
-                    assert.isFunction(serve.setRoutes);
-                }
-            );
+        it('exists', function () {
+            assert.isFunction(serve.setRoutes);
         }
+            );
+    }
     );
     describe('watchSourceFiles', function () {
-            it('exists', function () {
-                    assert.isFunction(serve.watchSourceFiles);
-                }
-            );
+        it('exists', function () {
+            assert.isFunction(serve.watchSourceFiles);
         }
+            );
+    }
     );
     describe('launchSite', function () {
-            it('exists', function () {
-                    assert.isFunction(serve.launchSite);
-                }
-            );
+        it('exists', function () {
+            assert.isFunction(serve.launchSite);
         }
+            );
+    }
     );
 });
