@@ -40,9 +40,6 @@
     "shelljs": "^0.7.5",
     "string": "^3.3.3",
     "stylus": "^0.54.5",
-    "tslint": "^4.0.0",
-    "typescript": "^2.0.10",
-    "typescript-require": "^0.2.9-1",
     "yamljs": "^0.2.8",
     "yargs": "^6.4.0"
   },
