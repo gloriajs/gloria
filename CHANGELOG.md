@@ -3,6 +3,7 @@
 - Removed unused dependencies
 - Added code of conduct
 - Replaced jscs with eslint
+- Using winston for loggin
 
 #0.10.0
 
