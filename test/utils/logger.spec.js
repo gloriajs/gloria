@@ -1,6 +1,6 @@
-var expect = require('chai').expect;
-var Logger = require('../../lib/utils/logger').Logger;
-var defaultLogger = require('../../lib/utils/logger').defaultLogger;
+const expect = require('chai').expect;
+const Logger = require('../../lib/utils/logger').Logger;
+const defaultLogger = require('../../lib/utils/logger').defaultLogger;
 
 describe('Logger', () => {
     const mockLogger = {

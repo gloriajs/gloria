@@ -1,3 +1,11 @@
+# Next Version
+
+#0.11.0
+
+- Removed unused dependencies
+- Added code of conduct
+- Replaced jscs with eslint
+
 #0.10.0
 
 - Fixed bug that prevent init from working on windows
