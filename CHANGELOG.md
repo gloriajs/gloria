@@ -1,5 +1,7 @@
 # Next Version
 
+- Using an utils file for logger
+
 #0.11.0
 
 - Removed unused dependencies
