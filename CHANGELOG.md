@@ -1,6 +1,10 @@
 # Next Version
 
+#0.12.0
+
 - Using an utils file for logger
+- Using config store to save configuration information for the module
+- Suggesting users to download the latest version if available
 
 #0.11.0
 
