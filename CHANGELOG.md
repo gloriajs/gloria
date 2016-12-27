@@ -1,5 +1,8 @@
 # Next Version
 
+- Reading files from the theme folder and including them in the build process
+- Allowing users to have different themes, and include the correct files from the theme selected
+
 #0.12.0
 
 - Using an utils file for logger
