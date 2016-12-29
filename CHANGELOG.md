@@ -1,5 +1,7 @@
 # Next Version
 
+# 0.14.0
+
 - Not clearing destination folder by default when serving
 
 #0.13.0
