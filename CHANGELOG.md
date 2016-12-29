@@ -1,5 +1,11 @@
 # Next Version
 
+#0.13.0
+
+- Reading files from the theme folder and including them in the build process
+- Allowing users to have different themes, and include the correct files from the theme selected
+- Fixed bug occuring to windows users when building/serving #97
+
 #0.12.0
 
 - Using an utils file for logger
