@@ -1,5 +1,7 @@
 # Next Version
 
+- Not clearing destination folder by default when serving
+
 #0.13.0
 
 - Reading files from the theme folder and including them in the build process
