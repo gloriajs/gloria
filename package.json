@@ -1,6 +1,6 @@
 {
   "name": "gloria",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "description": "Gloria is a NodeJS static website generator.",
   "main": "lib",
   "bin": "bin/gloria",

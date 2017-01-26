@@ -1,5 +1,10 @@
 # Next Version
 
+# 0.15.0
+
+- adding filename to the data available for page
+- Use frontmatter to customize layouts and includes (Issue #13)
+
 # 0.14.0
 
 - Not clearing destination folder by default when serving
