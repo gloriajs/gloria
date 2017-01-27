@@ -1,5 +1,9 @@
 # Next Version
 
+# 0.15.1
+
+- Added formatDate helper to handlebars helpers
+
 # 0.15.0
 
 - adding filename to the data available for page
