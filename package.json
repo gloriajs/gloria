@@ -28,6 +28,7 @@
     "handlebars": "^4.0.6",
     "liquid-to-handlebars": "^0.3.2",
     "marked": "^0.3.6",
+    "moment": "^2.17.1",
     "mz": "^2.5.0",
     "node-sass": "^3.13.0",
     "node-watch": "^0.4.1",
