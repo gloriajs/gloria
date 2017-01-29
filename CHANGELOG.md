@@ -1,5 +1,8 @@
 # Next Version
 
+- Adds a timestamp property to pages data
+- Created a method eachWithSort for a handlebar helper
+
 # 0.15.1
 
 - Added formatDate helper to handlebars helpers
