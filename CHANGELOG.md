@@ -1,5 +1,9 @@
 # Next Version
 
+# 0.16.1
+
+- Added direction to each with sort
+
 # 0.16.0
 
 - Adds a timestamp property to pages data
