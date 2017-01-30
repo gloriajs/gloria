@@ -1,5 +1,9 @@
 # Next Version
 
+# 0.16.2
+
+- Fixed error with including data and pages to for content
+
 # 0.16.1
 
 - Added direction to each with sort
