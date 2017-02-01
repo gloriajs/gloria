@@ -1,5 +1,9 @@
 # Next Version
 
+# 0.16.3
+
+- Fixed error where pages data was duplicated
+
 # 0.16.2
 
 - Fixed error with including data and pages to for content
