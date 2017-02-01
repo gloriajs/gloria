@@ -1,5 +1,9 @@
 # Next Version
 
+# 0.17.0
+
+- Reveresed 0.16.3
+
 # 0.16.3
 
 - Fixed error where pages data was duplicated
