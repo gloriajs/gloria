@@ -1,5 +1,10 @@
 # Next Version
 
+# 0.18.0
+
+- added a meta tag for responsive in default template
+- using UTC for moment when parsing dates
+
 # 0.17.0
 
 - Reveresed 0.16.3
