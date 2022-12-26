@@ -18,6 +18,16 @@ Install globally or per project.
 
 For more information check our [website](https://gloriajs.github.io).
 
+Add the `@gloriajs` scope to your `.npmrc` or your project before installing. If added globally it only needs to be done once, but is better to add it on each project so your collaborators don't have to do it too before getting started.
+
+```
+@gloriajs:registry=npm.pkg.github.com
+```
+Install by
+```
+npm i @gloriajs/gloria
+```
+
 # Usage
 
 Now gloria is globally installed in your computer, and you can run commands like `gloria --version` to retrieve the version. Or if installed per project you can use npx.
