@@ -28,14 +28,39 @@ Install by
 npm i @gloriajs/gloria
 ```
 
-# Usage
+## Usage
 
 Now gloria is globally installed in your computer, and you can run commands like `gloria --version` to retrieve the version. Or if installed per project you can use npx.
 
-# Development and contributing
+### Locally
 
-Refer to our [Contributing page](CONTRIBUTING.md)
+Clone this repo and point to it from another one adding this line to your dependencies:
 
-# Troubleshooting
+```
+    "gloria-local": "./node_modules/gloria-local/bin/gloria"
+```
 
-Try upgrading your version of node and run `yarn` again. Or open an [issue](https://github.com/gloriajs/gloria/issues) describing your problem.
+Then you can add scripts to your `package.json` as:
+
+```
+    "gloria-local": "./node_modules/gloria-local/bin/gloria"
+```
+
+And use `gloria` from that folder like:
+
+```
+npm run gloria-local -- --version
+```
+
+## Commands
+
+* `collect` - `[output]` traverses the include-paths and saves information about the available files
+
+
+## Development and contributing
+
+Refer to our [Contributing page](CONTRIBUTING.md) and local installation instructions above.
+
+## Troubleshooting
+
+Try upgrading your version of node and run `yarn` again. Or open an [issue](https://github.com/gloriajs/gloria/issues) describing your problem. Go for a walk and check whether that's what you want to be doing today.
