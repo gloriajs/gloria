@@ -86,3 +86,5 @@ Refer to our [Contributing page](CONTRIBUTING.md) and local installation instruc
 ## Troubleshooting
 
 Try upgrading your version of node and run `yarn` again. Or open an [issue](https://github.com/gloriajs/gloria/issues) describing your problem. Go for a walk and check whether that's what you want to be doing today.
+
+**Slava Ukraini**

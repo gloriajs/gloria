@@ -6,7 +6,8 @@ baseurl: 'https://gloriajs.github.io'
 author: 'daveed silva'
 description: 'Documentation for the tool gloriajs'
 dest: build
-theme: architect
+theme:
+    - layouts/tailwind
 css: tailwind
 include:
     - docs
