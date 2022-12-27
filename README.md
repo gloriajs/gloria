@@ -73,7 +73,8 @@ npm run gloria-local -- --version
 ## Commands
 
 * `collect` - `[output]` traverses the include-paths and saves information about the available files
-
+* `copy` - `[path] [dest]` copies the static files from source paths to dest folders
+* `version` - ` ` returns the current package version
 
 ## Development and contributing
 
