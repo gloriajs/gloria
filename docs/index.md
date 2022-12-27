@@ -2,60 +2,33 @@
 name: GloriaJS
 description: Docs index for gloriajs
 ---
-<header>
-    <div class="inner">
-    <h1>Welcome to GloriaJS</h1>
-    <h2>{{page.description}}</h2>
-    </div>
-</header>
+# Welcome to GloriaJS
 
-<div class="container">
-    <h1>Join Gloria in Slack</h1>
-    <p>We have a slack team where you can get support, help for contributing, or where you can
-        participate shaping the future of the project.
-        <a href="http://slack.gloriajs.com">Go here to request an invite</a>.
-    </p>
+The following commands are available and exist:
 
-    <div id="output" class="content markdown-body">
-        <p>
-            <em>gloria is spanish for glory, also the name of my mom and the name was available in npm</em></p>
+- [x] collect all files
+- [ ] collect assets
+- [ ] process content pages
+- [ ] process content data
+- [ ] process tailwind
+- [ ] write to file system
 
-        <p>This project aims to be a substitute for
-            <a href="https://jekyllrb.com/">jekyll</a>, to help you create static websites without depending on ruby.</p>
+We might open a discord later.
 
-        <p><strong>WARNING: this is a work in progress</strong> it only has access to a very limited set of features, and support
-            can be dropped in any moment.</p>
+This project hopes to make simple websites super simple to create and deploy, specially for super easy things you don't wanna worry about, that way everyone can focus on their amazing content without worrying about obscure compile errors.
 
-        <h1>Installation</h1>
 
-        <p>Use <a href="https://www.npmjs.com">npm</a> to install.</p>
 
-        <p><code>
-npm install -g gloria
-</code></p>
-
-        <h1>Usage</h1>
-
-        <p>Now gloria is globally installed in your computer, and you can run commands like <code>gloria --version</code> to
-            retrieve the version.</p>
-
-        <h1>_CONFIG.yml</h1>
-
-        <p>The file _config.yml has some important information about your site in
-            <a href="https://learn.getgrav.org/advanced/yaml">Yaml</a> format.</p>
-
-        <p>Only two values are required, name and location. The default file looks something like this:</p>
-
-        <p><pre><code>
+```
 name: sampleblog
 location: sampleblog
 layout: default
 author: 'david silva'
 description: 'Sample site created with gloria'
 version: 1.0.0
-</code></pre>
-    You can add any amount of data here and it will be available for you in the templates as properties of <code>site</code>.
-            Look in the <a href="#template">template</a> documentation for more info.</p>
+```
+
+You can add any amount of data here and it will be available for you in the templates as properties of <code>project.config</code>.
 
         <h1>Commands</h1>
 
