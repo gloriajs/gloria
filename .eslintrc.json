@@ -128,7 +128,7 @@
 		],
 		"space-infix-ops": 2,
 		"camelcase": [
-			2,
+			0,
 			{
 				"properties": "always"
 			}

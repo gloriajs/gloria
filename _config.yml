@@ -1,0 +1,15 @@
+# sample configuration
+# is also used when testing commands on this folder
+name: Gloria JS
+tagline: 'A simple static website generator'
+baseurl: 'https://gloriajs.github.io'
+author: 'daveed silva'
+description: 'Documentation for the tool gloriajs'
+dest: build
+theme:
+    - layouts/tailwind
+css: tailwind
+include:
+    - docs
+exclude:
+    - '.draft.md'

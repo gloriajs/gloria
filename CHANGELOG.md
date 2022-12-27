@@ -1,5 +1,17 @@
 # Next Version
 
+# 2.1.2
+-  Added the extract command
+
+# 2.1.1
+- Added the copy command
+
+# 2.1
+- Rewriting commands to be more modular
+
+# 2
+- Dropped support for sass
+
 # 0.18.0
 
 - added a meta tag for responsive in default template
