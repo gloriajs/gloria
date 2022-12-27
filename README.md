@@ -74,6 +74,9 @@ npm run gloria-local -- --version
 
 * `collect` - `[output]` traverses the include-paths and saves information about the available files
 * `copy` - `[path] [dest]` copies the static files from source paths to dest folders
+* `extract` - `[dest]` creates taxonomy, optionally outputs to file
+* `build` - `[path] [dest]` @TODO
+* `tailwind` - `[path] [dest]` @TODO
 * `version` - ` ` returns the current package version
 
 ## Development and contributing

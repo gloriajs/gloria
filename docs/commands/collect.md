@@ -5,7 +5,7 @@ description: Documentation website for the collect command GloriaJS
 # Command
 
 ```
-./bin/gloria collect --dest=build-logs
+./bin/gloria collect --dest=logs
 ```
 
 Debugging command.
