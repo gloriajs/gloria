@@ -1,3 +1,5 @@
+# sample configuration
+# is also used when testing commands on this folder
 name: Gloria JS
 tagline: 'A simple static website generator'
 baseurl: 'https://gloriajs.github.io'
