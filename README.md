@@ -12,6 +12,24 @@ This project aims to be a substitute for [jekyll](https://jekyllrb.com/), to hel
 
 We're going to have a discord or something some day.
 
+## Quickstart
+
+Gloria aims to be the easiest simple static web generator there is, get yourself a good looking website for your portfolio, projects, community or hobbies in less than 5 minutes.
+
+### Web
+
+Fork the quick start theme repo and modify `_config.yml`, add and change pages, and publish to your [github pages](https://pages.github.com/) for free.
+
+### Locally
+
+Add gloria as a dependency `yarn add @gloriajs/gloria` and follow build and deploy instructions.
+
+### Custom domains
+
+Github pages offers support for custom domains, follow the instructions on [their docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+
+[JS.org](https://js.org/) Offers free domains to open source
+
 ## Installation
 
 Install globally or per project.

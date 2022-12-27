@@ -1,0 +1,12 @@
+name: Gloria JS
+tagline: 'A simple static website generator'
+baseurl: 'https://gloriajs.github.io'
+author: 'daveed silva'
+description: 'Documentation for the tool gloriajs'
+dest: build
+theme: architect
+css: tailwind
+include:
+    - docs
+exclude:
+    - '.draft.md'

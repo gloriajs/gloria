@@ -61,3 +61,4 @@ sample
 _notes
 node_modules
 build-logs/*
+build/
