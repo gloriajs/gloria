@@ -1,4 +1,8 @@
 # Next Version
+
+# 2.1.2
+-  Added the extract command
+
 # 2.1.1
 - Added the copy command
 
