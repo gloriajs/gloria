@@ -4,3 +4,5 @@ Contributions in the form of ideas, designs, and code are always welcome no matt
 If you want to help but are not sure where to start, you can check out our project's
 [Issues](https://github.com/gloriajs/gloria/issues).
 
+For contributing instructions look at this page:
+[gloria.js.org/contributing/](https://gloria.js.org//contributing/).
