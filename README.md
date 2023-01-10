@@ -74,7 +74,8 @@ npm run gloria-local -- --version
 
 * `collect` - `[output]` traverses the include-paths and saves information about the available files
 * `copy` - `[path] [dest]` copies the static files from source paths to dest folders
-* `extract` - `[dest]` creates taxonomy, optionally outputs to file
+* `extract` - `[dest]` finds metadata and frontmatter information from every collected file
+* `prebuild` - `[dest]` creates the output placeholders so they can be processed
 * `build` - `[path] [dest]` @TODO
 * `tailwind` - `[path] [dest]` @TODO
 * `version` - ` ` returns the current package version
@@ -87,4 +88,8 @@ Refer to our [Contributing page](CONTRIBUTING.md) and local installation instruc
 
 Try upgrading your version of node and run `yarn` again. Or open an [issue](https://github.com/gloriajs/gloria/issues) describing your problem. Go for a walk and check whether that's what you want to be doing today.
 
-**Slava Ukraini**
+## google analytics
+
+I recommend not tracking vanity metrics when you could be going for a walk, but if you must, add it to the layout or wait for a way to append_to_head using metadata from a page.
+
+**Slava Ukraini** Gloria and Slava are the same word. A friend named Slava told me.
