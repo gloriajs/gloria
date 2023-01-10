@@ -1,6 +1,7 @@
 ---
 name: GloriaJS
 description: Docs index for gloriajs
+permalink: docs/
 ---
 # Welcome to GloriaJS
 

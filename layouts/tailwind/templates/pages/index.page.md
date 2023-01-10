@@ -1,4 +1,6 @@
 ---
 title: Welcome!
-description:
+description: Meow
+permalink: ''
 ---
+Index page
