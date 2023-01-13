@@ -3,14 +3,15 @@ name: GloriaJS
 description: Docs index for gloriajs
 permalink: docs/
 ---
+
 # Welcome to GloriaJS
 
 The following commands are available and exist:
 
 - [x] collect all files
-- [ ] collect assets
-- [ ] process content pages
-- [ ] process content data
+- [x] collect assets
+- [x] pre-process content pages
+- [ ] process content data and layouts
 - [ ] process tailwind
 - [ ] write to file system
 
@@ -18,7 +19,7 @@ We might open a discord later.
 
 This project hopes to make simple websites super simple to create and deploy, specially for super easy things you don't wanna worry about, that way everyone can focus on their amazing content without worrying about obscure compile errors.
 
-
+Don't remember what this is:
 
 ```
 name: sampleblog
@@ -105,6 +106,7 @@ You can add any amount of data here and it will be available for you in the temp
             <code></code>`</p>
         <p>
             This change allows accessing variables defined in layouts' and includes' frontmatters. This could be achieved through the following syntax. {{ page.g.layout.var1}} for accessing layout variables or
+
 {{ page.g.head.var1}} for accessing includes' (hbs partials) variables. head here is the name of the include. g (short for gloria) acts as a namespace to avoid collision between common variable names like 'title' or 'description'.
 
         </p>
@@ -112,11 +114,15 @@ You can add any amount of data here and it will be available for you in the temp
 
         <p>
             <pre><code>
+
 ---
+
 title: About us
 url: /about
 description:
+
 ---
+
             </code></pre>
         </p>
 
@@ -155,6 +161,7 @@ description:
         <p>I'm currently using:</p>
 
         <p><pre><code>
+
 node v6.4.0
 npm 3.10.3
 </code></pre></p>
