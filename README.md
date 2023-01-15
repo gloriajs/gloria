@@ -8,6 +8,8 @@ _gloria is spanish for glory, also the name of my mom and the name was available
 
 This project aims to be a substitute for [jekyll](https://jekyllrb.com/), to help you create static websites without depending on ruby.
 
+Because of its ease of use, extensibility and support for md files, is also great for creating websites out of documentatation that lives in a source code.
+
 ## Community
 
 We're going to have a discord or something some day.

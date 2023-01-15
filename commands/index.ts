@@ -1,40 +1,16 @@
 import _yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 
+import * as collect from './collect';
+
 const launch = (argv: string[]) => {
   const yargs = _yargs(hideBin(argv));
   yargs
     .scriptName('gloria')
     // .commandDir(`./commands`)
     .usage('$0 <cmd> [args]')
-    .command(
-      'hello [name]',
-      'welcome ter yargs!',
-      (yargs) => {
-        yargs.positional('name', {
-          type: 'string',
-          default: 'Cambi',
-          describe: 'the name to say hello to',
-        });
-      },
-      function (argv) {
-        console.log('hello', argv.name, 'welcome to yargs!');
-      },
-    )
-    .command(
-      'goodbye [name]',
-      'get out ter yargs!',
-      (yargs) => {
-        yargs.positional('name', {
-          type: 'string',
-          default: 'Cambi',
-          describe: 'the name to say hello to',
-        });
-      },
-      function (argv) {
-        console.log('hello', argv.name, 'welcome to yargs!');
-      },
-    )
+    .command(collect)
+    // .command()
     .coerce('times', (value) => {
       // value is not typed, but it is fine
       // at this point port is actual string you passed to the app

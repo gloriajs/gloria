@@ -1,59 +1,50 @@
-const klaw = require('klaw');
-const $q = require('q');
-const logger = require('../utils/logger');
+// import logger from '../lib/utils/logger';
+// import config from '../lib/core/project.config';
+// import _collect from '../lib/commands/collect';
+import fs from 'fs';
+import * as yargs from 'yargs';
 
-const _klaw = (path, items, config) => {
-  const promise = new Promise(function (resolve, reject) {
-    klaw(path)
-      .on('data', (item) => {
-        // @TODO: fix bug where is not ignoring excludes
-        if (item.path.endsWith(config.exclude[0])) {
-          return;
-        } else {
-          items.push(item);
-        }
-      })
-      .on('error', (e) => {
-        logger.error(e);
-        reject();
-      })
-      .on('end', () => {
-        resolve();
-      });
-  });
-
-  return promise;
-};
-
-// Actual collect file that the bin file calls after it processed the arguments or whatever
-const run = (project) => {
-  const promiseArray = [];
-
-  const items = {
-    include: [],
-    copy: [],
-    styles: [],
-    theme: [],
+/**
+ * Normally called as part of another command, but it can be used
+ * directly for debugging purposes.
+ * When given an output argument it will write the results and
+ * additional information to disk in a json file.
+ *
+ * Default include-paths are pages and posts.
+ * @param {string} argv.dest If present, write result to destination file
+ */
+const collect = (argv: any) => {
+  const project = {
+    // config: config.get(),
   };
 
-  project.config.include.map((path) => {
-    promiseArray.push(_klaw(path, items.include, project.config));
-  });
+  // _collect.run(project).then((project) => {
+  //   const { config } = project;
 
-  project.config.copy.map((path) => {
-    promiseArray.push(_klaw(path, items.copy, project.config));
-  });
+  //   if (argv.dest) {
+  //     const dest = `./${argv.dest}/collected.${config._hash}.json`;
+  //     const ztring = JSON.stringify(project.collected);
+  //     fs.writeFileSync(dest, ztring);
+  //   }
 
-  project.config.theme.map((path) => {
-    promiseArray.push(_klaw(path, items.theme, project.config));
-  });
+  // logger.log(project.collected);
 
-  return $q.all(promiseArray).then(() => {
-    project.collected = items;
-    return project;
-  });
+  console.log({ argv, project });
+  return project;
+  // });
 };
 
-module.exports = {
-  run,
-};
+const options = yargs.options({
+  dest: {
+    type: 'string',
+    default: 'build',
+  },
+});
+
+console.log({ options });
+
+export const command = 'collect';
+export const builder = options;
+export const handler = collect;
+export const alliases = [];
+export const describe = 'Collects source files in the project folder';

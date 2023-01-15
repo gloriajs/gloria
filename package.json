@@ -2,13 +2,14 @@
   "name": "@gloriajs/gloria",
   "version": "2.1.2",
   "description": "Gloria is a NodeJS simple static website generator.",
-  "main": "lib",
-  "bin": "bin/gloria",
+  "main": "cli.js",
+  "bin": "cli.js",
   "scripts": {
     "test": "",
     "tsc": "tsc",
     "lint": "eslint '**/*.{js,ts}' --fix",
     "prettier": "prettier --write .",
+    "build": "tsc ",
     "gloria": "./bin/gloria"
   },
   "repository": {
