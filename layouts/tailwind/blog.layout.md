@@ -1,7 +1,6 @@
 ---
 layout: index
 name: blog
-permalink: true
 title: Blog
 ---
 <!DOCTYPE html>

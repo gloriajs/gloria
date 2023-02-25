@@ -1,4 +1,8 @@
 # Next Version
+- Tailwind command
+
+# 2.1.4
+- Build command correctly writes temp files to disk
 
 # 2.1.3
 - Build command works with md and handlebars
