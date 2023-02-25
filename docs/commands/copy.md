@@ -11,4 +11,4 @@ layout: blog
 ./bin/gloria copy --dest=build --path=public
 ```
 
-Command to copy the static assets into edstination folder.
+Command to copy the static assets into destination folder.

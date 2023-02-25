@@ -1,5 +1,9 @@
 # Next Version
 
+# 2.1.6
+- Copying files that are meant to be copied before running CSS
+- Fixed sample files
+
 # 2.1.5
 - Tailwind command
 - Writes to file abstracted

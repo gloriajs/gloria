@@ -99,6 +99,7 @@ Refer to our [Contributing page](CONTRIBUTING.md) and local installation instruc
 - [ ] Delete unused files
 - [ ] Data sources
 - [x] interpolations
+- [ ] bug: only excluding first condition
 
 ## Data structure
 

@@ -13,3 +13,5 @@ include:
   - docs
 exclude:
   - '.draft.md'
+copy:
+  - public
