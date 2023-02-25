@@ -80,8 +80,8 @@ npm run gloria-local -- --version
 - `copy` - `[path] [dest]` copies the static files from source paths to dest folders
 - `extract` - `[dest]` finds metadata and frontmatter information from every collected file
 - `prebuild` - `[dest]` creates the output placeholders so they can be processed
-- `build` - `[path] [dest]` interpolates the content into the layout & writes to temp folder
-- `css` - `[path] [dest]` @TODO runs tailwin in the html output
+- `build` - `[path] [dest]` interpolates the content into the layout
+- `css` - `[path] [dest]` @TODO runs tailwind in the html output
 - `scripts` - `[path] [dest]` @TODO processes scripts
 - `write` - `[dest]` @TODO writes to disk
 - `version` - ` ` returns the current package version

@@ -1,6 +1,6 @@
 ---
-name: GloriaJS
-description: Docs index for gloriajs
+title: GloriaJS
+description: Documentation for gloriajs
 permalink: docs/
 ---
 

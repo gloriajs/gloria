@@ -1,0 +1,28 @@
+---
+layout: index
+name: blog
+permalink: true
+title: Blog
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{site.title}}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="{{head.css_path}}">
+  <style>
+    {{page.inline_styles}}
+  </style>
+</head>
+<body>
+  <div class="">
+    <div>
+      <h1>{{page.title}}</h1>
+      <main>
+        {{{page.content}}}
+      </main>
+    </div>
+  </div>
+</body>
+</html>

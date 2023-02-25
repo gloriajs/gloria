@@ -1,5 +1,5 @@
 ---
-name: Copy command
+title: Copy command
 description: Documentation website for the copy command GloriaJS
 permalink: docs/command/copy
 ---
