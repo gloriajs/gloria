@@ -4,7 +4,7 @@ _gloria is spanish for glory, also the name of my mom and the name was available
 
 **V2 is deprecating lots of old functions, make sure to read the migrating docs.** We're also slowly moving into typescript, and while I think it should work very well for your projects, legally I need to remind you that this is a satire of other projects.
 
-[![Build Status](https://travis-ci.org/gloriajs/gloria.svg?branch=master)](https://travis-ci.org/dvidsilva/gloria)
+It currently supports having a content management system using MD files and tailwind CSS, with some bugs, but the main functionality and philosophy have been accomplished.
 
 This project aims to be a substitute for [jekyll](https://jekyllrb.com/), to help you create static websites without depending on ruby.
 
@@ -33,8 +33,6 @@ Github pages offers support for custom domains, follow the instructions on [thei
 [JS.org](https://js.org/) Offers free domains to open source
 
 ## Installation
-
-Install globally or per project.
 
 For more information check our [website](https://gloriajs.github.io).
 
@@ -81,9 +79,9 @@ npm run gloria-local -- --version
 - `extract` - `[dest]` finds metadata and frontmatter information from every collected file
 - `prebuild` - `[dest]` creates the output placeholders so they can be processed
 - `build` - `[path] [dest]` interpolates the content into the layout
-- `css` - `[path] [dest]` @TODO runs tailwind in the html output
+- `css:tailwind` - `[path] [dest]` runs tailwind in the html output
 - `scripts` - `[path] [dest]` @TODO processes scripts
-- `write` - `[dest]` @TODO writes to disk
+- `write` - `[dest]` @TODO writes production version to disk and cleans temp files
 - `version` - ` ` returns the current package version
 
 The commands all should work on their own, and the ones that combine multiple steps do it very nicely by using promises, we pass the project around, and store and read from its properties, to create new commands or amplify existing ones, for plugins and templates, review the data structure.
@@ -94,11 +92,13 @@ Refer to our [Contributing page](CONTRIBUTING.md) and local installation instruc
 
 **Here's our @TODO in no particular order for inspiration:**
 
-- [ ] Write the previous commands to restore basic features
+- [x] Write the previous commands to restore basic features
+- [ ] Fix build so it interpolates the parsed markdown
 - [ ] Recreate documentation website
 - [ ] Move to typescript
 - [ ] Delete unused files
-- [ ] Data sources / interpolation
+- [ ] Data sources
+- [x] interpolations
 
 ## Data structure
 
@@ -114,6 +114,10 @@ const project = {
 ```
 
 Once we're in typescript it will be much easier to see by referencing the interfaces.
+
+## CSS
+
+I'm using tailwind coz it seemed easy, should be quite extendable and possible to include other css pre-processors, or change the configuration flag.
 
 ## Tests
 

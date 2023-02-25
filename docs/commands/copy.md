@@ -2,6 +2,7 @@
 title: Copy command
 description: Documentation website for the copy command GloriaJS
 permalink: docs/command/copy
+layout: blog
 ---
 
 # Command

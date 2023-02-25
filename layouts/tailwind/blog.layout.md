@@ -15,7 +15,7 @@ title: Blog
   </style>
 </head>
 <body>
-  <div class="">
+  <div class="container mx-auto px-4">
     <div>
       <h1>{{page.title}}</h1>
       <main>

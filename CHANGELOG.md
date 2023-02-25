@@ -1,5 +1,8 @@
 # Next Version
+
+# 2.1.5
 - Tailwind command
+- Writes to file abstracted
 
 # 2.1.4
 - Build command correctly writes temp files to disk
