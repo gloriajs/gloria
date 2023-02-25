@@ -1,5 +1,7 @@
 # Next Version
 
+# 2.1.3
+- Build command works with md and handlebars
 - Partial typescript support
 - Added the prebuild commandd
 - Added the build command
