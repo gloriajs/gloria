@@ -34,7 +34,13 @@ Github pages offers support for custom domains, follow the instructions on [thei
 
 ## Installation
 
-For more information check our [website](https://gloriajs.github.io).
+For more information check our [website](https://gloria.js.org).
+
+### Npm Registry
+
+To install from the npm registry run `yarn add gloriajs` or `npm install gloriajs`.
+
+### Github packages
 
 Add the `@gloriajs` scope to your `.npmrc` or your project before installing. If added globally it only needs to be done once, but is better to add it on each project so your collaborators don't have to do it too before getting started. I can't remember my npm login, but once I figure it out we can also publish there I guess.
 
