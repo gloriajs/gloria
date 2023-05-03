@@ -5,7 +5,7 @@
   "main": "cli.js",
   "bin": "cli.js",
   "scripts": {
-    "test": "",
+    "test": "touch .",
     "tsc": "tsc",
     "lint": "eslint '**/*.{js,ts}' --fix",
     "prettier": "prettier --write .",
