@@ -1,5 +1,8 @@
 # Next Version
 
+# 2.1.8
+- Wrote github action to publish github package
+
 # 2.1.7
 - Write command created
 
