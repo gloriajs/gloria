@@ -1,7 +1,10 @@
 ---
-name: Collect command
+title: Collect command
 description: Documentation website for the collect command GloriaJS
+permalink: docs/command/collect
+layout: blog
 ---
+
 # Command
 
 ```

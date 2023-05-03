@@ -7,9 +7,11 @@ author: 'daveed silva'
 description: 'Documentation for the tool gloriajs'
 dest: build
 theme:
-    - layouts/tailwind
+  - layouts/tailwind
 css: tailwind
 include:
-    - docs
+  - docs
 exclude:
-    - '.draft.md'
+  - '.draft.md'
+copy:
+  - public

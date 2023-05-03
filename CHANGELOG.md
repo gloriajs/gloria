@@ -1,15 +1,39 @@
 # Next Version
 
+# 2.1.7
+- Write command created
+
+# 2.1.6
+- Copying files that are meant to be copied before running CSS
+- Fixed sample files
+
+# 2.1.5
+- Tailwind command
+- Writes to file abstracted
+
+# 2.1.4
+- Build command correctly writes temp files to disk
+
+# 2.1.3
+- Build command works with md and handlebars
+- Partial typescript support
+- Added the prebuild commandd
+- Added the build command
+
 # 2.1.2
--  Added the extract command
+
+- Added the extract command
 
 # 2.1.1
+
 - Added the copy command
 
 # 2.1
+
 - Rewriting commands to be more modular
 
 # 2
+
 - Dropped support for sass
 
 # 0.18.0
@@ -74,7 +98,7 @@
 - Fixed bug that prevent init from working on windows
 - Added build stats
 - Watches files and builds during serve
-- Allows to add additional data as json files, in the _data folder.
+- Allows to add additional data as json files, in the \_data folder.
   The data can be used in the templates as {{data.'jsonFileName'}}
 
 #0.9.6
@@ -87,7 +111,7 @@
 - Fixed bugs with prompts
 - Increased test coverage
 - Allows to chose a layout from the provided ones
-- Added support for _stylus files
+- Added support for \_stylus files
 - Added a `watch` flag for serve command
 
 #0.9.4
@@ -95,6 +119,7 @@
 - Added the `new` command to make it easier adding new content
 
 #0.9.3
+
 - Refactored the render file, for the build command
 
 #0.9.2
@@ -103,20 +128,18 @@
 
 #0.9.1
 #0.9.0
+
 ## Added the option to include posts
 
-- Posts can be included in a folder _posts, they will be rendered using the
-layout `post.html`.
+- Posts can be included in a folder \_posts, they will be rendered using the
+  layout `post.html`.
 
 - There's a property named posts, that can be used to get a lists of posts
-to lists them.
+  to lists them.
 
 - The bootstrap layout, includes examples on how to use them.
 
-**@todo**:
-     - Prevent errors when templates don't exists.
-     - Create helpers to allow nesting layout/template
-     - Create new command
+**@todo**: - Prevent errors when templates don't exists. - Create helpers to allow nesting layout/template - Create new command
 
 #0.8.3
 
@@ -133,8 +156,8 @@ to lists them.
 #0.8.0
 **Simple support for sass**
 
-- Using node-sass, it will look for main.scss files in a _sass folder.
-It will then output the compiled files into {dest}/sass/
+- Using node-sass, it will look for main.scss files in a \_sass folder.
+  It will then output the compiled files into {dest}/sass/
 
 **@todo**: allow to customize the source and destination of sass files.
 
@@ -142,4 +165,4 @@ It will then output the compiled files into {dest}/sass/
 **Added a migrate command**
 
 - Allows to migrate a jekyll site to gloria. Poorly,
-as described [here](https://github.com/gloriajs/gloria/issues/15).
+  as described [here](https://github.com/gloriajs/gloria/issues/15).
