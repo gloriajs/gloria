@@ -1,5 +1,8 @@
 # Next Version
 
+# 2.1.9
+- Fixed a bug on the write method
+
 # 2.1.8
 - Wrote github action to publish github package
 
