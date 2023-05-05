@@ -1,5 +1,8 @@
 # Next Version
 
+# 2.2.0
+- Fixed data extraction step in prebuild command
+
 # 2.1.9
 - Fixed a bug on the write method
 
