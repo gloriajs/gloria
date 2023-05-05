@@ -11,6 +11,7 @@ theme:
 css: tailwind
 include:
   - docs
+  - data
 exclude:
   - '.draft.md'
 copy:
