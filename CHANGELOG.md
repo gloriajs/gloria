@@ -1,5 +1,8 @@
 # Next Version
 
+# 2.1.7
+- Write command created
+
 # 2.1.6
 - Copying files that are meant to be copied before running CSS
 - Fixed sample files

@@ -81,7 +81,8 @@ npm run gloria-local -- --version
 - `build` - `[path] [dest]` interpolates the content into the layout
 - `css:tailwind` - `[path] [dest]` runs tailwind in the html output
 - `scripts` - `[path] [dest]` @TODO processes scripts
-- `write` - `[dest]` @TODO writes production version to disk and cleans temp files
+- `write` - `[dest]` writes production version to disk
+- `cleanup` - `[dest]` @TODO: cleans up temp files after a successful build
 - `version` - ` ` returns the current package version
 
 The commands all should work on their own, and the ones that combine multiple steps do it very nicely by using promises, we pass the project around, and store and read from its properties, to create new commands or amplify existing ones, for plugins and templates, review the data structure.
