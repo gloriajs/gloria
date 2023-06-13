@@ -100,6 +100,7 @@ Refer to our [Contributing page](CONTRIBUTING.md) and local installation instruc
 - [ ] Data sources
 - [x] interpolations
 - [ ] bug: only excluding first condition
+- [ ] Restore ability to use partial templates
 
 ## Data structure
 
