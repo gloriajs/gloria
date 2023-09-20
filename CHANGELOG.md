@@ -1,4 +1,5 @@
-# Next Version
+# 2.2.0-a
+- Fixing copy command that was corrupting images
 
 # 2.1.8
 - Wrote github action to publish github package
