@@ -24,7 +24,7 @@ Fork the quick start theme repo and modify `_config.yml`, add and change pages, 
 
 ### Locally
 
-Add gloria as a dependency `yarn add @gloriajs/gloria` and follow build and deploy instructions. We're using a `yarn.lock`.
+Add gloria as a dependency `yarn add gloriajs` and follow build and deploy instructions. We're using a `yarn.lock`.
 
 ### Custom domains
 
@@ -100,8 +100,8 @@ Refer to our [Contributing page](CONTRIBUTING.md) and local installation instruc
 **Here's our @TODO in no particular order for inspiration:**
 
 - [x] Write the previous commands to restore basic features
-- [ ] Fix build so it interpolates the parsed markdown
-- [ ] Recreate documentation website
+- [x] Fix build so it interpolates the parsed markdown
+- [x] Recreate documentation website
 - [ ] Move to typescript
 - [ ] Delete unused files
 - [ ] Data sources
