@@ -1,3 +1,8 @@
+# NEXTVERSION
+
+# 2.2.1
+- Creating setup command to generate default _config.yml
+
 # 2.2.0-a
 - Fixing copy command that was corrupting images
 
