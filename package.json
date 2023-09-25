@@ -1,6 +1,6 @@
 {
   "name": "gloriajs",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Gloria is a NodeJS simple static website generator.",
   "main": "cli.js",
   "bin": "cli.js",

@@ -1,5 +1,8 @@
 # NEXTVERSION
 
+# 2.2.2
+- Added basic handlebars filters for easy navigation
+
 # 2.2.1
 - Creating setup command to generate default _config.yml
 
