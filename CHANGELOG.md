@@ -1,5 +1,8 @@
 # NEXTVERSION
 
+# 2.2.3
+- Stopped collecting files to be copied to avoid certain bugs
+
 # 2.2.2
 - Added basic handlebars filters for easy navigation
 
